@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Static Website Demo</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Static Website Demo</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 30 Oct 2024 13:06:42 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;テスト投稿&#34;&gt;テスト投稿&lt;/h2&gt;&#xA;&lt;p&gt;私の初めての記事です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
