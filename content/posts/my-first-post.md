@@ -6,3 +6,5 @@ title = 'My First Post'
 
 ## テスト投稿
 私の初めての記事です。
+
+Github Actionsがうまくいかないので困っています。
