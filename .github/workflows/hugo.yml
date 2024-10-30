@@ -1,12 +1,9 @@
 name: build hugo  # 任意の名前をつけます
 
-on:  # トリガーの設定
+on:
   push:
     branches:
-      - master  # "master" ブランチに push されたときに実行
-  pull_request:
-    branches:
-      - master  # "master" ブランチに対するプルリクエストが作成されたときに実行
+      - master
 
 jobs:
   build-deploy:
