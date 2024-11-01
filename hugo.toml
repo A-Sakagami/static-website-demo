@@ -3,6 +3,10 @@ languageCode = 'ja-jp'
 title = 'Static Website Demo'
 theme = "beautifulhugo"
 
+[Params.author]
+    name = "Akiyasu Sakagami"
+    email = "sakagami@genz.jp"
+
 [[menu.main]]
     name = "Blog"
     url = ""
