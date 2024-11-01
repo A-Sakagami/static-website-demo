@@ -7,6 +7,9 @@ theme = "beautifulhugo"
     name = "Akiyasu Sakagami"
     email = "sakagami@genz.jp"
 
+[Params]
+  customCSS = ["css/custom.css"]
+
 [[menu.main]]
     name = "Blog"
     url = ""
