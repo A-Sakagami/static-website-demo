@@ -17,7 +17,7 @@ theme = "beautifulhugo"
 
 [[menu.main]]
     name = "About"
-    url = "pages/about/"
+    url = "about/"
     weight = 3
 
 [[menu.main]]
@@ -45,7 +45,7 @@ theme = "beautifulhugo"
 
 [[menu.main]]
     name = "Contact"
-    url = "pages/contact/"
+    url = "contact/"
     weight = 3
 
 [[menu.main]]

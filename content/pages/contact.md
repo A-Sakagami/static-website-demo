@@ -5,7 +5,7 @@ draft = false
 parent = ''
 +++
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
+<form action="https://formspree.io/f/mpwzprjy" method="POST">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
 
