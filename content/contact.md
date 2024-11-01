@@ -5,14 +5,14 @@ draft = false
 +++
 
 <form action="https://formspree.io/f/mpwzprjy" method="POST">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
+<label for="name" style="display: block; margin-bottom: 0.5em;">Name:</label>
+  <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="_replyto" required>
+  <label for="email" style="display: block; margin-bottom: 0.5em;">Email:</label>
+  <input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
 
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
+  <label for="message" style="display: block; margin-bottom: 0.5em;">Message:</label>
+  <textarea id="message" name="message" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; height: 150px;"></textarea>
 
-  <button type="submit">Send</button>
+  <button type="submit" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;">Send</button>
 </form>
