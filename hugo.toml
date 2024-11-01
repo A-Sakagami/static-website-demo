@@ -17,7 +17,7 @@ theme = "beautifulhugo"
 
 [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "pages/about/"
     weight = 3
 
 [[menu.main]]
@@ -41,6 +41,11 @@ theme = "beautifulhugo"
     parent = "samples"
     name = "Code Sample"
     url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "pages/contact/"
     weight = 3
 
 [[menu.main]]
