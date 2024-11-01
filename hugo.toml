@@ -4,8 +4,8 @@ title = 'Static Website Demo'
 theme = "beautifulhugo"
 
 [Params.author]
-    name = "Akiyasu Sakagami"
-    email = "sakagami@genz.jp"
+    name = "A-Sakagami"
+    github = "https://github.com/A-Sakagami/"
 
 [Params]
   customCSS = "css/custom.css"
