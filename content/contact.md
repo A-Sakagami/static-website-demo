@@ -6,10 +6,7 @@ draft = false
 
 {{< rawhtml >}}
 <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mpwzprjy"
-  method="POST"
->
+<form action="https://formspree.io/f/mpwzprjy" method="POST">
   <label>
     Your email:
     <input type="email" name="email">
