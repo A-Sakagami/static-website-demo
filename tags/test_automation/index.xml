@@ -16,6 +16,6 @@
  &lt;div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
  &lt;p>明日にも初雪が見られそうです。&lt;/p>
  &lt;/div>
- &lt;button onclick="alert('ボタンがクリックされました！')" style="width: 100%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;">クリックしてください&lt;/button>
+ &lt;button onclick="alert('ボタンがクリックされました！')" style="width: 50%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;">クリックしてください&lt;/button>
  &lt;/body>
 &lt;/html></description></item></channel></rss>
