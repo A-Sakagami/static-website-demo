@@ -2,6 +2,7 @@
 date = '2024-11-06T10:00:00+09:00'
 draft = false
 title = '20241106_秋晴れ'
+tags = ['Test_automation']
 +++
 
 <!DOCTYPE HTML>
