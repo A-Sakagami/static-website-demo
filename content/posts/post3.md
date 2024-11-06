@@ -10,7 +10,6 @@ tags = ['Test_automation']
  <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="custom.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
 </head>
  </head>
  <body>

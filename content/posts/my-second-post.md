@@ -4,9 +4,7 @@ draft = false
 title = 'My Second Post'
 Tags = ['Math']
 +++
-<head>
- <link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-</head>
+
 ## テスト投稿
 二つ目の記事です。
 

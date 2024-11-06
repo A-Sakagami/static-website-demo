@@ -4,10 +4,6 @@ date = 2024-10-31T12:00:00+09:00
 draft = false
 +++
 
-<head>
- <link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-</head>
-
 ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。
 
 ## 実装済み
