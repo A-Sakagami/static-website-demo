@@ -14,13 +14,13 @@ tags = ['Test_automation']
  <body>
   <h3>HTMLセクション</h3>
   <!-- id重複 -->
-  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: system-ui;"">
    <p>今日も秋晴れ、肌寒い季節となってまいりました。</p>
   </div>
-  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: system-ui;">
    <p>紅葉の見ごろもそろそろ終わりですね。</p>
   </div>
-  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: system-ui;">
    <p>明日にも初雪が見られそうです。</p>
   </div>
   <button onclick="alert('ボタンがクリックされました！')" style="width: 50%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;">クリックしてください</button>
