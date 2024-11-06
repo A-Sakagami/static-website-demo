@@ -3,6 +3,8 @@
  &lt;head>
  &lt;meta charset="UTF-8" />
  &lt;link rel="stylesheet" href="custom.css" />
+ &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
+&lt;/head>
  &lt;/head>
  &lt;body>
  &lt;h3>HTMLセクション&lt;/h3>
