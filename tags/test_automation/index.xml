@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test_automation on Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/tags/test_automation/</link><description>Recent content in Test_automation on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/tags/test_automation/index.xml" rel="self" type="application/rss+xml"/><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/id%E9%87%8D%E8%A4%87/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/id%E9%87%8D%E8%A4%87/</guid><description>&lt;!DOCTYPE HTML>
+&lt;html>
+ &lt;head>
+ &lt;meta charset="UTF-8" />
+ &lt;link rel="stylesheet" href="custom.css" />
+ &lt;style>
+ body {
+ background-color: #f0f0f0;
+ }
+ #hogehoge {
+ background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+ border: 1px solid #696969;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 1px black;
+ }
+ &lt;/style>
+ &lt;/head>
+ &lt;body>
+ &lt;!-- id重複 -->
+ &lt;div id = "hogehoge">
+ &lt;p>今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p>
+ &lt;/div>
+ &lt;div id = "hogehoge">
+ &lt;p>紅葉の見ごろもそろそろ終わりですね。&lt;/p>
+ &lt;/div>
+ &lt;div id = "hogehoge">
+ &lt;p>明日にも初雪が見られそうです。&lt;/p>
+ &lt;/div>
+ &lt;/body>
+&lt;/html></description></item></channel></rss>
