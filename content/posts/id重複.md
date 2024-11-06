@@ -10,29 +10,20 @@ tags = ['Test_automation']
  <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="custom.css" />
-  <style>
-   body {
-    background-color: #f0f0f0;
-   }
-   #hogehoge {
-    background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
-    border: 1px solid #696969;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 1px black;
-   }
-  </style>
  </head>
  <body>
+  <h3>HTMLセクション</h3>
   <!-- id重複 -->
-  <div id = "hogehoge">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
    <p>今日も秋晴れ、肌寒い季節となってまいりました。</p>
   </div>
-  <div id = "hogehoge">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
    <p>紅葉の見ごろもそろそろ終わりですね。</p>
   </div>
-  <div id = "hogehoge">
+  <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
    <p>明日にも初雪が見られそうです。</p>
   </div>
+  <button onclick="alert('ボタンがクリックされました！')" style="width: 100%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;>クリックしてください
+  </button>
  </body>
 </html>
