@@ -23,7 +23,6 @@ tags = ['Test_automation']
   <div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
    <p>明日にも初雪が見られそうです。</p>
   </div>
-  <button onclick="alert('ボタンがクリックされました！')" style="width: 100%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;>クリックしてください
-  </button>
+  <button onclick="alert('ボタンがクリックされました！')" style="width: 100%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;">クリックしてください</button>
  </body>
 </html>
