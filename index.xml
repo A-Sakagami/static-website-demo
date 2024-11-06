@@ -3,7 +3,6 @@
  &lt;head>
  &lt;meta charset="UTF-8" />
  &lt;link rel="stylesheet" href="custom.css" />
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
 &lt;/head>
  &lt;/head>
  &lt;body>
@@ -19,10 +18,7 @@
  &lt;p>明日にも初雪が見られそうです。&lt;/p>
  &lt;/div>
  &lt;/body>
-&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-&lt;form action="https://formspree.io/f/mpwzprjy" method="POST">
+&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form action="https://formspree.io/f/mpwzprjy" method="POST">
 &lt;label for="name" style="display: block; margin-bottom: 0.5em;">Name:&lt;/label>
  &lt;input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
 &lt;p>&lt;label for="email" style="display: block; margin-bottom: 0.5em;">Email:&lt;/label>
@@ -30,10 +26,7 @@
 &lt;p>&lt;label for="message" style="display: block; margin-bottom: 0.5em;">Message:&lt;/label>&lt;/p>
  &lt;textarea id="message" name="message" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; height: 150px;">&lt;/textarea>
 &lt;p>&lt;button type="submit" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;">Send&lt;/button>&lt;/p>
-&lt;/form></description></item><item><title>このサイトについて</title><link>https://a-sakagami.github.io/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/about/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
+&lt;/form></description></item><item><title>このサイトについて</title><link>https://a-sakagami.github.io/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/about/</guid><description>&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
 &lt;h2 id="実装済み">実装済み&lt;/h2>
 &lt;ul>
 &lt;li>お問い合わせフォーム&lt;/li>
@@ -49,18 +42,12 @@
 &lt;li>テキストがないボタンやリンク&lt;/li>
 &lt;li>クリックとダブルクリックが同時に定義されているボタン&lt;/li>
 &lt;li>iframeの入れ子構造&lt;/li>
-&lt;/ul></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-## テスト投稿
-二つ目の記事です。
+&lt;/ul></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>二つ目の記事です。&lt;/p>
 &lt;p>これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。&lt;/p>
 &lt;p>KaTeXも使えるようです。数学徒も満足できるでしょう。
 $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-## テスト投稿
-私の初めての記事です。
+$$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>私の初めての記事です。&lt;/p>
 &lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item></channel></rss>

@@ -3,7 +3,6 @@
  &lt;head>
  &lt;meta charset="UTF-8" />
  &lt;link rel="stylesheet" href="custom.css" />
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
 &lt;/head>
  &lt;/head>
  &lt;body>
@@ -19,18 +18,12 @@
  &lt;p>明日にも初雪が見られそうです。&lt;/p>
  &lt;/div>
  &lt;/body>
-&lt;/html></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-## テスト投稿
-二つ目の記事です。
+&lt;/html></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>二つ目の記事です。&lt;/p>
 &lt;p>これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。&lt;/p>
 &lt;p>KaTeXも使えるようです。数学徒も満足できるでしょう。
 $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;head>
- &lt;link rel="shortcut icon" type="image/x-icon" href="static\img\favicon.ico">
-&lt;/head>
-## テスト投稿
-私の初めての記事です。
+$$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>私の初めての記事です。&lt;/p>
 &lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item></channel></rss>
