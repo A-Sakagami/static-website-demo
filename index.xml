@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/</link><description>Recent content on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 01 Nov 2024 16:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/index.xml" rel="self" type="application/rss+xml"/><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form action="https://formspree.io/f/mpwzprjy" method="POST">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/</link><description>Recent content on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/index.xml" rel="self" type="application/rss+xml"/><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/id%E9%87%8D%E8%A4%87/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/id%E9%87%8D%E8%A4%87/</guid><description>&lt;!DOCTYPE HTML>
+&lt;html>
+ &lt;head>
+ &lt;meta charset="UTF-8" />
+ &lt;link rel="stylesheet" href="custom.css" /> 
+ &lt;/head>
+ &lt;body>
+ &lt;div id = "hogehoge" >
+ &lt;p>今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p>
+ &lt;/div>
+ &lt;div id = "hogehoge">
+ &lt;p>紅葉の見ごろもそろそろ終わりですね。&lt;/p>
+ &lt;/div>
+ &lt;div id = "hogehoge">
+ &lt;p>明日にも初雪が見られそうです。&lt;/p>
+ &lt;/div>
+ &lt;/body>
+&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form action="https://formspree.io/f/mpwzprjy" method="POST">
 &lt;label for="name" style="display: block; margin-bottom: 0.5em;">Name:&lt;/label>
  &lt;input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
 &lt;p>&lt;label for="email" style="display: block; margin-bottom: 0.5em;">Email:&lt;/label>
