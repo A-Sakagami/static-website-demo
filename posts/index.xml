@@ -3,30 +3,21 @@
  &lt;head>
  &lt;meta charset="UTF-8" />
  &lt;link rel="stylesheet" href="custom.css" />
- &lt;style>
- body {
- background-color: #f0f0f0;
- }
- #hogehoge {
- background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
- border: 1px solid #696969;
- padding: 10px;
- border-radius: 10px;
- box-shadow: 2px 2px 1px black;
- }
- &lt;/style>
  &lt;/head>
  &lt;body>
+ &lt;h3>HTMLセクション&lt;/h3>
  &lt;!-- id重複 -->
- &lt;div id = "hogehoge">
+ &lt;div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
  &lt;p>今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p>
  &lt;/div>
- &lt;div id = "hogehoge">
+ &lt;div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
  &lt;p>紅葉の見ごろもそろそろ終わりですね。&lt;/p>
  &lt;/div>
- &lt;div id = "hogehoge">
+ &lt;div id = "hogehoge" style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
  &lt;p>明日にも初雪が見られそうです。&lt;/p>
  &lt;/div>
+ &lt;button onclick="alert('ボタンがクリックされました！')" style="width: 100%; padding: 0.5em; background-color: #007BFF; color: white; border: none; border-radius: 4px;>クリックしてください
+ &lt;/button>
  &lt;/body>
 &lt;/html></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
 &lt;p>二つ目の記事です。&lt;/p>
