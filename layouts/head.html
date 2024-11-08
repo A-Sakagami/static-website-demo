@@ -47,13 +47,12 @@
 {{- end }}
 {{- partial "seo/main.html" . }}  
 {{- with .Site.Params.favicon }}
-  <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
+<!-- favicon 指定-->
+  <link href= "/favicon.ico" rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Hugo Version number -->
   {{ hugo.Generator -}}
 <!-- Links and stylesheets -->
-  <!-- favicon 追加-->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
   {{- if .Site.Params.selfHosted -}}
