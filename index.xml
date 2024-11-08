@@ -18,15 +18,26 @@
  &lt;p>明日にも初雪が見られそうです。&lt;/p>
  &lt;/div>
  &lt;/body>
-&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form action="https://formspree.io/f/mpwzprjy" method="POST">
+&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form id= "contactForm" action="https://formspree.io/f/mpwzprjy" method="POST">
 &lt;label for="name" style="display: block; margin-bottom: 0.5em;">Name:&lt;/label>
  &lt;input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
 &lt;p>&lt;label for="email" style="display: block; margin-bottom: 0.5em;">Email:&lt;/label>
 &lt;input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">&lt;/p>
 &lt;p>&lt;label for="message" style="display: block; margin-bottom: 0.5em;">Message:&lt;/label>&lt;/p>
  &lt;textarea id="message" name="message" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; height: 150px;">&lt;/textarea>
-&lt;p>&lt;button type="submit" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;">Send&lt;/button>&lt;/p>
-&lt;/form></description></item><item><title>このサイトについて</title><link>https://a-sakagami.github.io/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/about/</guid><description>&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
+&lt;p>&lt;button type="button" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;" id="sendButton">Send&lt;/button>&lt;/p>
+&lt;/form>
+&lt;script>
+ document.getElementById('sendButton').addEventListener('click', function () {
+ const userConfirmed = confirm('この内容で送信してよろしいですか？');
+ if (userConfirmed) {
+ // ここでフォーム送信の実装を追加してください。
+ document.getElementById('contactForm').submit();
+ alert('送信されました！');
+ }
+ // キャンセルの場合は何も行わず、画面にとどまる
+ });
+&lt;/script></description></item><item><title>このサイトについて</title><link>https://a-sakagami.github.io/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/about/</guid><description>&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
 &lt;h2 id="実装済み">実装済み&lt;/h2>
 &lt;ul>
 &lt;li>お問い合わせフォーム&lt;/li>
