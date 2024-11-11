@@ -33,7 +33,7 @@ theme = "beautifulhugo"
 [[menu.main]]
     parent = "samples"
     name = "carousel sample"
-    url = "post/carousel-sample"
+    url = "posts/carousel-sample"
     weight = 1
 
 [[menu.main]]
