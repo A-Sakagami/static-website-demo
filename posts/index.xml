@@ -1,44 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/posts/</link><description>Recent content in Posts on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 11 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Carousel Sample</title><link>https://a-sakagami.github.io/static-website-demo/posts/carousel-sample/</link><pubDate>Mon, 11 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/carousel-sample/</guid><description>&lt;h2 id="カルーセルのサンプル">カルーセルのサンプル&lt;/h2>
-&lt;p>カルーセルとは：画像などの複数の項目をスライドさせることで、メインで表示する項目を切り替えることができる仕組み
-引用：&lt;a href="https://solutions.hakuhodody-one.co.jp/glossary/carousel-ad">DAC Solution Service:カルーセルとは&lt;/a>&lt;/p>
-
-
-&lt;div class="swiper-container">
- &lt;div class="swiper-wrapper">
- 
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide1.jpg" alt="Slide 1">
- &lt;/div>
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide2.jpg" alt="Slide 2">
- &lt;/div>
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide3.jpg" alt="Slide 3">
- &lt;/div>
-
- &lt;/div>
- &lt;div class="swiper-pagination">&lt;/div>
- &lt;div class="swiper-button-next">&lt;/div>
- &lt;div class="swiper-button-prev">&lt;/div>
- &lt;/div>
- &lt;script>
- document.addEventListener('DOMContentLoaded', function () {
- new Swiper('.swiper-container', {
- loop: true,
- pagination: {
- el: '.swiper-pagination',
- clickable: true,
- },
- navigation: {
- nextEl: '.swiper-button-next',
- prevEl: '.swiper-button-prev',
- },
- autoplay: {
- delay: 3000,
- },
- });
- });
- &lt;/script></description></item><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/posts/</link><description>Recent content in Posts on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
 &lt;html>
  &lt;head>
  &lt;meta charset="UTF-8" />
