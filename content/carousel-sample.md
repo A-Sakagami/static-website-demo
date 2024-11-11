@@ -9,14 +9,21 @@ title = 'Carousel Sample'
 カルーセルとは：画像などの複数の項目をスライドさせることで、メインで表示する項目を切り替えることができる仕組み
 引用：[DAC Solution Service:カルーセルとは](https://solutions.hakuhodody-one.co.jp/glossary/carousel-ad)
 
-{{< swiper >}}
-  <div class="swiper-slide">
-    <img src="/static/images/slide1.jpg" alt="Slide 1">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/static/img/slide1.jpg" alt="Slide 1">
+    </div>
+    <div class="swiper-slide">
+      <img src="/static/img/slide2.jpg" alt="Slide 2">
+    </div>
+    <div class="swiper-slide">
+      <img src="/static/img/slide3.jpg" alt="Slide 3">
+    </div>
   </div>
-  <div class="swiper-slide">
-    <img src="/static/images/slide2.jpg" alt="Slide 2">
-  </div>
-  <div class="swiper-slide">
-    <img src="/static/images/slide3.jpg" alt="Slide 3">
-  </div>
-{{< /swiper >}}
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
