@@ -32,8 +32,8 @@ theme = "beautifulhugo"
 
 [[menu.main]]
     parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    name = "carousel sample"
+    url = "post/carousel-sample"
     weight = 1
 
 [[menu.main]]

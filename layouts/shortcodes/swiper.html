@@ -1,0 +1,29 @@
+<!-- カルーセルを複数ページで使いたい場合は、Hugoのショートコードを使って再利用可能なコンポーネントにするのが便利 -->
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      {{ .Inner }}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    });
+  </script>
+  
