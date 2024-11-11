@@ -7,13 +7,13 @@
  &lt;div class="swiper-wrapper">
  
  &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/images/slide1.jpg" alt="Slide 1">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide1.jpg" alt="Slide 1">
  &lt;/div>
  &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/images/slide2.jpg" alt="Slide 2">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide2.jpg" alt="Slide 2">
  &lt;/div>
  &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/images/slide3.jpg" alt="Slide 3">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/static/images/slide3.jpg" alt="Slide 3">
  &lt;/div>
 
  &lt;/div>
