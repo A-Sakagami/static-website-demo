@@ -11,12 +11,12 @@ title = 'Carousel Sample'
 
 {{< swiper >}}
   <div class="swiper-slide">
-    <img src="/images/slide1.jpg" alt="Slide 1">
+    <img src="/static/images/slide1.jpg" alt="Slide 1">
   </div>
   <div class="swiper-slide">
-    <img src="/images/slide2.jpg" alt="Slide 2">
+    <img src="/static/images/slide2.jpg" alt="Slide 2">
   </div>
   <div class="swiper-slide">
-    <img src="/images/slide3.jpg" alt="Slide 3">
+    <img src="/static/images/slide3.jpg" alt="Slide 3">
   </div>
 {{< /swiper >}}
