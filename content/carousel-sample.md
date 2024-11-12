@@ -27,16 +27,3 @@ title = 'Carousel Sample'
     <div class="swiper-button-prev"></div>
   </div>
 </body>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const style = document.createElement('style');
-    style.innerHTML = `
-      .swiper-container {
-        width: 100%;
-        height: 400px;
-        margin: 20px auto;
-      }
-    `;
-    document.head.appendChild(style);
-  });
-</script>
