@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/static-website-demo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=static-website-demo/livereload" data-no-instant defer></script>
     
 
   <meta charset="utf-8" />
@@ -12,20 +12,21 @@
  
 
 
-  <script type="application/ld+json">
+  
+  <meta name="author" content="A-Sakagami"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Static Website Demo",
     
-    "url": "http:\/\/localhost:1313\/"
+    "url": "http:\/\/localhost:1313\/static-website-demo\/"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "http:\/\/localhost:1313\/"
+  "url": "http:\/\/localhost:1313\/static-website-demo\/"
   
   
   
@@ -34,18 +35,26 @@
 </script>
 
 <meta property="og:title" content="Static Website Demo" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:url" content="http://localhost:1313/static-website-demo/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Static Website Demo" />
 
   <meta name="twitter:title" content="Static Website Demo" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.136.5">
-  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Static Website Demo"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="alternate" href="http://localhost:1313/static-website-demo/index.xml" type="application/rss+xml" title="Static Website Demo"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://localhost:1313/css/syntax.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/syntax.css" /><link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+<link rel="icon" href=/favicon.ico type="image/x-icon">
+
+
+<link rel="stylesheet" href="/static-website-demo/assets/css/swiper-bundle.min.css">
+
+
+<script src="/static-website-demo/assets/js/swiper-bundle.min.js"></script>
 
   </head>
   <body>
@@ -58,11 +67,50 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://localhost:1313/">Static Website Demo</a>
+      <a class="navbar-brand" href="http://localhost:1313/static-website-demo/">Static Website Demo</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/static-website-demo/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/static-website-demo/carousel-sample/">carousel sample</a>
+                
+                  <a href="/static-website-demo/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/static-website-demo/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/static-website-demo/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Contact" href="/static-website-demo/contact/">Contact</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/static-website-demo/tags">Tags</a>
+            </li>
+          
         
 
         
@@ -173,7 +221,121 @@
           
           
             <article class="post-preview">
-    <a href="http://localhost:1313/posts/my-first-post/">
+    <a href="http://localhost:1313/static-website-demo/posts/post3/">
+        <h2 class="post-title">20241106_秋晴れ</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 6, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;A-Sakagami
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="custom.css" />
+</head>
+ </head>
+ <body>
+  <h3>HTMLセクション</h3>
+  <!-- style重複 -->
+  <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
+   <p>今日も秋晴れ、肌寒い季節となってまいりました。</p>
+  </div>
+  <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
+   <p>紅葉の見ごろもそろそろ終わりですね。</p>
+  </div>
+  <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif ;">
+   <p>明日にも初雪が見られそうです。</p>
+  </div>
+ </body>
+</html>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/static-website-demo/tags/test_automation/">Test_automation</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/static-website-demo/posts/my-second-post/">
+        <h2 class="post-title">My Second Post</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 31, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;A-Sakagami
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="テスト投稿">テスト投稿</h2>
+<p>二つ目の記事です。</p>
+<p>これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。</p>
+<p>KaTeXも使えるようです。数学徒も満足できるでしょう。
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$</p>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/static-website-demo/tags/math/">Math</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/static-website-demo/posts/my-first-post/">
         <h2 class="post-title">My First Post</h2>
         
         
@@ -190,7 +352,7 @@
   
   
     
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;A-Sakagami
     
   
   
@@ -202,6 +364,7 @@
         
         <h2 id="テスト投稿">テスト投稿</h2>
 <p>私の初めての記事です。</p>
+<p>Github Actionsがうまくいかないので困っています。</p>
 
         
     </div>
@@ -232,9 +395,23 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           
+              <li>
+		
+		  <a href="https://github.com/A-Sakagami/" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
           
         </ul>
         <p class="credits copyright text-muted">
+          
+            
+              A-Sakagami
+            
           
 
           &nbsp;&bull;&nbsp;&copy;
@@ -244,7 +421,7 @@
 
           
             &nbsp;&bull;&nbsp;
-            <a href="http://localhost:1313/">Static Website Demo</a>
+            <a href="http://localhost:1313/static-website-demo/">Static Website Demo</a>
           
         </p>
         
@@ -260,8 +437,8 @@
 <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-<script src="http://localhost:1313/js/main.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+<script src="http://localhost:1313/static-website-demo/js/main.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/static-website-demo/js/load-photoswipe.js"></script>
 
 
 
@@ -269,8 +446,28 @@
 
 
 
+<link rel="stylesheet" href="/static-website-demo/assets/css/custom.css" />
 
 
+<script src="http://localhost:1313/static-website-demo/assets/js/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 3000,
+      },
+    });
+  });
+</script>
 
     
   </body>
