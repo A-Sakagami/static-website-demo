@@ -8,7 +8,7 @@ theme = "beautifulhugo"
     github = "https://github.com/A-Sakagami/"
 
 [Params]
-  customCSS = "css/custom.css"
+  customCSS = ["assets/css/custom.css"]
 
 [markup]
   [markup.goldmark]
