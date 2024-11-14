@@ -9,6 +9,7 @@ theme = "beautifulhugo"
 
 [Params]
   customCSS = ["static/css/custom.css"]
+  enablePhotoswipe = false
 
 [markup]
   [markup.goldmark]

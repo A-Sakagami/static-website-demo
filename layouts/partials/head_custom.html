@@ -6,10 +6,14 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 <link rel="icon" href={{ "/favicon.ico" | relURL }} type="image/x-icon">
 
 <!-- Swiper CSS -->
-<link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | relURL }}">
-
-<!-- Swiper JS -->
-<script src="{{ "js/swiper-bundle.min.js" | relURL }}"></script>
+<link rel="stylesheet" href="{{ "assets/css/swiper-bundle.min.css" | absURL }}">
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+{{ if .Site.Params.enablePhotoswipe }}
+  <link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/photoswipe.default-skin.min.css" | absURL }}">
+  <script src="{{ "js/photoswipe.min.js" | absURL }}"></script>
+  <script src="{{ "js/photoswipe-ui-default.min.js" | absURL }}"></script>
+{{ end }}

@@ -2,16 +2,17 @@
 date = '2024-11-11T10:00:00+09:00'
 draft = false
 title = 'Carousel Sample'
-[[images]]
+[swiper]
+[[swiper.images]]
 src = "/img/slide1.jpg"
 alt = "Person"
 
-[[images]]
+[[swiper.images]]
 src = "/img/slide2.jpg"
 alt = "Slide2"
 caption = "AI chip"
 
-[[images]]
+[[swiper.images]]
 src = "/img/slide3.jpg"
 alt = "Slide3"
 caption = "Fire Twitter bird"
@@ -24,10 +25,5 @@ caption = "Fire Twitter bird"
 <body>
  <div>
    {{< swiper >}}
-
-   <!-- Add Pagination -->
-   <div class="swiper-pagination"></div>
-   <div class="swiper-button-next"></div>
-   <div class="swiper-button-prev"></div>
-  </div>
+ </div>
 </body>

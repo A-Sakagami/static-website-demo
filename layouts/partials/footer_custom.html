@@ -20,3 +20,10 @@
     });
   });
 </script>
+
+{{ if .Site.Params.enablePhotoswipe }}
+  <link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/photoswipe.default-skin.min.css" | absURL }}">
+  <script src="{{ "js/photoswipe.min.js" | absURL }}"></script>
+  <script src="{{ "js/photoswipe-ui-default.min.js" | absURL }}"></script>
+{{ end }}
