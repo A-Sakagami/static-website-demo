@@ -71,4 +71,11 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
 &lt;p>私の初めての記事です。&lt;/p>
-&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item></channel></rss>
+&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item><item><title>Test Swiper</title><link>https://a-sakagami.github.io/static-website-demo/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid><description>&lt;div class="swiper-container">
+ &lt;div class="swiper-wrapper">
+ 
+ &lt;/div>
+ &lt;div class="swiper-pagination">&lt;/div>
+ &lt;div class="swiper-button-next">&lt;/div>
+ &lt;div class="swiper-button-prev">&lt;/div>
+ &lt;/div></description></item></channel></rss>
