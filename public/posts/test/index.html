@@ -15,33 +15,15 @@
       <title>Test Swiper - </title>
 
   <meta name="description" content="
+
+  &#10094;
   
     
-      
-        
-        
-          Person
-        
-      
     
-      
-        
-        
-          AI chip
-        
-      
-    
-      
-        
-        
-          Fire Twitter bird
-        
-      
     
   
-  
-  
-  
+  &#10095;
+
 ">
   <meta name="author" content="A-Sakagami"/><script type="application/ld+json">
 {
@@ -91,9 +73,9 @@
     "name" : "A-Sakagami"
   },
   "headline": "Test Swiper",
-  "description" : "\rPerson\rAI chip\rFire Twitter bird\r",
+  "description" : "\r\u0026#10094;\r\u0026#10095;\r",
   "inLanguage" : "en",
-  "wordCount":  6 ,
+  "wordCount":  2 ,
   "datePublished" : "0001-01-01T00:00:00\u002b00:00",
   "dateModified" : "0001-01-01T00:00:00\u002b00:00",
   "image" : "https:\/\/a-sakagami.github.io\/static-website-demo\/",
@@ -115,60 +97,22 @@
 
 <meta property="og:title" content="Test Swiper" />
 <meta property="og:description" content="
+
+  &#10094;
   
     
-      
-        
-        
-          Person
-        
-      
     
-      
-        
-        
-          AI chip
-        
-      
-    
-      
-        
-        
-          Fire Twitter bird
-        
-      
     
   
-  
-  
-  
+  &#10095;
+
 ">
 <meta property="og:url" content="https://a-sakagami.github.io/static-website-demo/posts/test/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Static Website Demo" />
 
   <meta name="twitter:title" content="Test Swiper" />
-  <meta name="twitter:description" content="
-  
-    
-      
-        
-        
-          Person
-        
-      
-    
-      
-        
-        
-          AI chip
-        
-      
-    
-      
-        
-        
-          Fire …">
+  <meta name="twitter:description" content="">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.138.0">
   <link rel="alternate" href="https://a-sakagami.github.io/static-website-demo/index.xml" type="application/rss+xml" title="Static Website Demo"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
@@ -347,38 +291,80 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <div class="swiper-container">
-  <div class="swiper-wrapper">
-    
-      <div class="swiper-slide">
-        <img src="/img/slide1.jpg" alt="Person" />
-        
-          <div class="caption">Person</div>
-        
-      </div>
-    
-      <div class="swiper-slide">
-        <img src="/img/slide2.jpg" alt="Slide2" />
-        
-          <div class="caption">AI chip</div>
-        
-      </div>
-    
-      <div class="swiper-slide">
-        <img src="/img/slide3.jpg" alt="Slide3" />
-        
-          <div class="caption">Fire Twitter bird</div>
-        
-      </div>
-    
+        <style>
+.carousel {
+width: 100%;
+max-width: 800px;
+margin: 20px auto;
+overflow: hidden;
+position: relative;
+}
+
+.carousel-images {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+width: 100%;
+max-width: 800px;
+}
+
+.carousel-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+
+.carousel-button.prev {
+left: 10px;
+}
+
+.carousel-button.next {
+right: 10px;
+}
+</style>
+<div class="carousel">
+  <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+  <div class="carousel-images" id="carouselImages">
+    <img src="/img/slide1.jpg" alt="Slide 1">
+    <img src="/img/slide2.jpg" alt="Slide 2">
+    <img src="/img/slide3.jpg" alt="Slide 3">
   </div>
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+  <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
 </div>
-  
-  
-  
+<script>
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    const slides = document.getElementById('carouselImages');
+    const totalSlides = slides.children.length;
+
+    if (index >= totalSlides) {
+      currentIndex = 0;
+    } else if (index < 0) {
+      currentIndex = totalSlides - 1;
+    } else {
+      currentIndex = index;
+    }
+
+    const offset = -currentIndex * 100; // 各スライドの幅分移動
+    slides.style.transform = 'translateX(' + offset + '%)';
+  }
+
+  function nextSlide() {
+    showSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(currentIndex - 1);
+  }
+</script>
 
 
         
