@@ -133,9 +133,9 @@ right: 10px;
 &lt;div class="carousel">
  &lt;button class="carousel-button prev" onclick="prevSlide()">&amp;#10094;&lt;/button>
  &lt;div class="carousel-images" id="carouselImages">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Slide 1">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide 2">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide 3">
+ &lt;img src="img/slide1.jpg" alt="Slide 1">
+ &lt;img src="img/slide2.jpg" alt="Slide 2">
+ &lt;img src="img/slide3.jpg" alt="Slide 3">
  &lt;/div>
  &lt;button class="carousel-button next" onclick="nextSlide()">&amp;#10095;&lt;/button>
 &lt;/div>
