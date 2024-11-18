@@ -48,14 +48,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/syntax.css" /><link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
-<link rel="icon" href=/static-website-demo/static/favicon.ico type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
 
 
-<link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/swiper-bundle.min.css">
-<link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/custom.css">
+<link rel="stylesheet" href="/css/swiper-bundle.min.css"></link>
+<link rel="stylesheet" href="/css/custom.css"></link>
 
 
-<script src="http://localhost:1313/static-website-demo/js/swiper-bundle.min.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
 
 
   </head>
@@ -404,13 +404,34 @@ $$</p>
     <div class="post-entry">
         
         <div class="swiper-container">
-    <div class="swiper-wrapper">
-      
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+  <div class="swiper-wrapper">
+    
+      <div class="swiper-slide">
+        <img src="/img/slide1.jpg" alt="Person" />
+        
+          <div class="caption">Person</div>
+        
+      </div>
+    
+      <div class="swiper-slide">
+        <img src="/img/slide2.jpg" alt="Slide2" />
+        
+          <div class="caption">AI chip</div>
+        
+      </div>
+    
+      <div class="swiper-slide">
+        <img src="/img/slide3.jpg" alt="Slide3" />
+        
+          <div class="caption">Fire Twitter bird</div>
+        
+      </div>
+    
   </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
   
   
   
@@ -497,32 +518,33 @@ $$</p>
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/swiper-bundle.min.css">
-<link rel="stylesheet" href="http://localhost:1313/static-website-demo/css/custom.css">
+<link rel="stylesheet" href="/css/custom.css"></link>
 
 
-<script src="http://localhost:1313/static-website-demo/js/swiper-bundle.min.js"></script>
-
+<script src="/js/swiper-bundle.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.swiper-container', {
-      loop: false,
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 3000,
-      },
-    });
+    if (typeof Swiper !== "undefined") {
+      new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    } else {
+      console.error("Swiperが定義されていません。JavaScriptファイルの読み込みに問題があります。");
+    }
   });
 </script>
+
 
 
 

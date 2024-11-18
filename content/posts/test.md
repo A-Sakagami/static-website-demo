@@ -4,6 +4,7 @@ title = "Test Swiper"
 [[swiper.images]]
 src = "/img/slide1.jpg"
 alt = "Person"
+caption = "Person"
 
 [[swiper.images]]
 src = "/img/slide2.jpg"

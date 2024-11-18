@@ -3,18 +3,18 @@ If you want to include any custom html just before </head>, put it in /layouts/p
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/head_custom.html doesn't exist.
 -->
 
-<link rel="icon" href={{ "static/favicon.ico" | relURL }} type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
 
 <!-- Swiper CSS -->
-<link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+<link rel="stylesheet" href="/css/swiper-bundle.min.css"></link>
+<link rel="stylesheet" href="/css/custom.css"></link>
 
 <!-- Swiper JS -->
-<script src="{{ "js/swiper-bundle.min.js" | absURL }}"></script>
+<script src="/js/swiper-bundle.min.js"></script>
 
 {{ if .Site.Params.enablePhotoswipe }}
-  <link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}">
-  <link rel="stylesheet" href="{{ "css/photoswipe.default-skin.min.css" | absURL }}">
-  <script src="{{ "js/photoswipe.min.js" | absURL }}"></script>
-  <script src="{{ "js/photoswipe-ui-default.min.js" | absURL }}"></script>
+<link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/photoswipe.default-skin.min.css" | absURL }}">
+<script src="{{ "js/photoswipe.min.js" | absURL }}"></script>
+<script src="{{ "js/photoswipe-ui-default.min.js" | absURL }}"></script>
 {{ end }}

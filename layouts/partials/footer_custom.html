@@ -3,32 +3,33 @@ If you want to include any custom html just before </body>, put it in /layouts/p
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/footer_custom.html doesn't exist.
 -->
 <!-- Swiper CSS -->
-<link rel="stylesheet" href="{{ "css/swiper-bundle.min.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+<link rel="stylesheet" href="/css/custom.css"></link>
 
 <!-- Swiper JS -->
-<script src="{{ "js/swiper-bundle.min.js" | absURL }}"></script>
-
+<script src="/js/swiper-bundle.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.swiper-container', {
-      loop: false,
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 3000,
-      },
-    });
+    if (typeof Swiper !== "undefined") {
+      new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    } else {
+      console.error("Swiperが定義されていません。JavaScriptファイルの読み込みに問題があります。");
+    }
   });
 </script>
+
 
 {{ if .Site.Params.enablePhotoswipe }}
   <link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}">
