@@ -4,11 +4,32 @@
 &lt;div class="swiper-container">
  &lt;div class="swiper-wrapper">
  
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Person" />
+ 
+ &lt;div class="caption">Person&lt;/div>
+ 
+ &lt;/div>
+ 
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide2" />
+ 
+ &lt;div class="caption">AI chip&lt;/div>
+ 
+ &lt;/div>
+ 
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide3" />
+ 
+ &lt;div class="caption">Fire Twitter bird&lt;/div>
+ 
+ &lt;/div>
+ 
  &lt;/div>
  &lt;div class="swiper-pagination">&lt;/div>
  &lt;div class="swiper-button-next">&lt;/div>
  &lt;div class="swiper-button-prev">&lt;/div>
- &lt;/div></description></item><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
+&lt;/div></description></item><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
 &lt;html>
  &lt;head>
  &lt;meta charset="UTF-8" />
@@ -74,8 +95,29 @@ $$&lt;/p></description></item><item><title>My First Post</title><link>https://a-
 &lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item><item><title>Test Swiper</title><link>https://a-sakagami.github.io/static-website-demo/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid><description>&lt;div class="swiper-container">
  &lt;div class="swiper-wrapper">
  
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Person" />
+ 
+ &lt;div class="caption">Person&lt;/div>
+ 
+ &lt;/div>
+ 
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide2" />
+ 
+ &lt;div class="caption">AI chip&lt;/div>
+ 
+ &lt;/div>
+ 
+ &lt;div class="swiper-slide">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide3" />
+ 
+ &lt;div class="caption">Fire Twitter bird&lt;/div>
+ 
+ &lt;/div>
+ 
  &lt;/div>
  &lt;div class="swiper-pagination">&lt;/div>
  &lt;div class="swiper-button-next">&lt;/div>
  &lt;div class="swiper-button-prev">&lt;/div>
- &lt;/div></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>
