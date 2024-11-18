@@ -8,7 +8,7 @@ theme = "beautifulhugo"
     github = "https://github.com/A-Sakagami/"
 
 [Params]
-  customCSS = ["static/css/custom.css"]
+  customCSS = ["/css/custom.css"]
   enablePhotoswipe = false
 
 [markup]

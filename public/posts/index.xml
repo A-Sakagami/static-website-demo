@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Static Website Demo</title>
-    <link>http://localhost:1313/static-website-demo/posts/</link>
+    <link>https://a-sakagami.github.io/static-website-demo/posts/</link>
     <description>Recent content in Posts on Static Website Demo</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/static-website-demo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://a-sakagami.github.io/static-website-demo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20241106_秋晴れ</title>
-      <link>http://localhost:1313/static-website-demo/posts/post3/</link>
+      <link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link>
       <pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/static-website-demo/posts/post3/</guid>
+      <guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid>
       <description>&lt;!DOCTYPE HTML&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA; &lt;head&gt;&#xD;&#xA;  &lt;meta charset=&#34;UTF-8&#34; /&gt;&#xD;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; /&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA; &lt;/head&gt;&#xD;&#xA; &lt;body&gt;&#xD;&#xA;  &lt;h3&gt;HTMLセクション&lt;/h3&gt;&#xD;&#xA;  &lt;!-- style重複 --&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif&#34;&gt;&#xD;&#xA;   &lt;p&gt;今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif&#34;&gt;&#xD;&#xA;   &lt;p&gt;紅葉の見ごろもそろそろ終わりですね。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif ;&#34;&gt;&#xD;&#xA;   &lt;p&gt;明日にも初雪が見られそうです。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA; &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>http://localhost:1313/static-website-demo/posts/my-second-post/</link>
+      <link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link>
       <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
-      <guid>http://localhost:1313/static-website-demo/posts/my-second-post/</guid>
+      <guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid>
       <description>&lt;h2 id=&#34;テスト投稿&#34;&gt;テスト投稿&lt;/h2&gt;&#xA;&lt;p&gt;二つ目の記事です。&lt;/p&gt;&#xA;&lt;p&gt;これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。&lt;/p&gt;&#xA;&lt;p&gt;KaTeXも使えるようです。数学徒も満足できるでしょう。&#xA;$$&#xA;x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}&#xA;$$&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/static-website-demo/posts/my-first-post/</link>
+      <link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link>
       <pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate>
-      <guid>http://localhost:1313/static-website-demo/posts/my-first-post/</guid>
+      <guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;テスト投稿&#34;&gt;テスト投稿&lt;/h2&gt;&#xA;&lt;p&gt;私の初めての記事です。&lt;/p&gt;&#xA;&lt;p&gt;Github Actionsがうまくいかないので困っています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Swiper</title>
-      <link>http://localhost:1313/static-website-demo/posts/test/</link>
+      <link>https://a-sakagami.github.io/static-website-demo/posts/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/static-website-demo/posts/test/</guid>
-      <description>&lt;div class=&#34;swiper-container&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/static-website-demo/img/slide1.jpg&#34; alt=&#34;Person&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;Person&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/static-website-demo/img/slide2.jpg&#34; alt=&#34;Slide2&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;AI chip&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/static-website-demo/img/slide3.jpg&#34; alt=&#34;Slide3&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;Fire Twitter bird&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-button-next&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-button-prev&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+      <guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid>
+      <description>&lt;div class=&#34;swiper-container&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;https://a-sakagami.github.io/static-website-demo/img/slide1.jpg&#34; alt=&#34;Person&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;Person&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;https://a-sakagami.github.io/static-website-demo/img/slide2.jpg&#34; alt=&#34;Slide2&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;AI chip&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;div class=&#34;swiper-slide&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;https://a-sakagami.github.io/static-website-demo/img/slide3.jpg&#34; alt=&#34;Slide3&#34; /&gt;&#xD;&#xA;        &#xD;&#xA;          &lt;div class=&#34;caption&#34;&gt;Fire Twitter bird&lt;/div&gt;&#xD;&#xA;        &#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-button-next&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;swiper-button-prev&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
