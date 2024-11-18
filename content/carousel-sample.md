@@ -4,17 +4,17 @@ draft = false
 title = 'Carousel Sample'
 [swiper]
 [[swiper.images]]
-src = "/img/slide1.jpg"
+src = "/img/original/slide1.jpg"
 alt = "Person"
 caption = "Person"
 
 [[swiper.images]]
-src = "/img/slide2.jpg"
+src = "/img/original/slide2.jpg"
 alt = "Slide2"
 caption = "AI chip"
 
 [[swiper.images]]
-src = "/img/slide3.jpg"
+src = "/img/original/slide3.jpg"
 alt = "Slide3"
 caption = "Fire Twitter bird"
 +++
@@ -24,4 +24,4 @@ caption = "Fire Twitter bird"
 カルーセルとは：画像などの複数の項目をスライドさせることで、メインで表示する項目を切り替えることができる仕組み
 引用：[DAC Solution Service:カルーセルとは](https://solutions.hakuhodody-one.co.jp/glossary/carousel-ad)
 
-{{< swiper >}}
+{{ partial "custom/swiper.html" . }}
