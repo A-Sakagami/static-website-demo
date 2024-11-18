@@ -44,9 +44,9 @@ right: 10px;
 <div class="carousel">
   <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
   <div class="carousel-images" id="carouselImages">
-    <img src="/img/slide1.jpg" alt="Slide 1">
-    <img src="/img/slide2.jpg" alt="Slide 2">
-    <img src="/img/slide3.jpg" alt="Slide 3">
+    <img src="img/slide1.jpg" alt="Slide 1">
+    <img src="img/slide2.jpg" alt="Slide 2">
+    <img src="img/slide3.jpg" alt="Slide 3">
   </div>
   <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
 </div>
