@@ -24,4 +24,4 @@ caption = "Fire Twitter bird"
 カルーセルとは：画像などの複数の項目をスライドさせることで、メインで表示する項目を切り替えることができる仕組み
 引用：[DAC Solution Service:カルーセルとは](https://solutions.hakuhodody-one.co.jp/glossary/carousel-ad)
 
-{{ partial "custom/swiper.html" . }}
+{{ partial "/custom/swiper.html" . }}
