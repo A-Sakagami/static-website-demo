@@ -36,5 +36,7 @@
     <lastmod>2024-10-30T13:06:42+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/static-website-demo/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/static-website-demo/posts/test/</loc>
   </url>
 </urlset>

@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/static-website-demo/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;テスト投稿&#34;&gt;テスト投稿&lt;/h2&gt;&#xA;&lt;p&gt;私の初めての記事です。&lt;/p&gt;&#xA;&lt;p&gt;Github Actionsがうまくいかないので困っています。&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Test Swiper</title>
+      <link>http://localhost:1313/static-website-demo/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/static-website-demo/posts/test/</guid>
+      <description>&lt;div class=&#34;swiper-container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xD;&#xA;      &#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;swiper-button-next&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;swiper-button-prev&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;</description>
+    </item>
   </channel>
 </rss>
