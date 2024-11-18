@@ -92,32 +92,77 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
 &lt;p>私の初めての記事です。&lt;/p>
-&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item><item><title>Test Swiper</title><link>https://a-sakagami.github.io/static-website-demo/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid><description>&lt;div class="swiper-container">
- &lt;div class="swiper-wrapper">
- 
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Person" />
- 
- &lt;div class="caption">Person&lt;/div>
- 
+&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item><item><title>Test Swiper</title><link>https://a-sakagami.github.io/static-website-demo/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid><description>&lt;style>
+.carousel {
+width: 100%;
+max-width: 800px;
+margin: 20px auto;
+overflow: hidden;
+position: relative;
+}
+
+.carousel-images {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+width: 100%;
+max-width: 800px;
+}
+
+.carousel-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+
+.carousel-button.prev {
+left: 10px;
+}
+
+.carousel-button.next {
+right: 10px;
+}
+&lt;/style>
+&lt;div class="carousel">
+ &lt;button class="carousel-button prev" onclick="prevSlide()">&amp;#10094;&lt;/button>
+ &lt;div class="carousel-images" id="carouselImages">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Slide 1">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide 2">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide 3">
  &lt;/div>
- 
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide2" />
- 
- &lt;div class="caption">AI chip&lt;/div>
- 
- &lt;/div>
- 
- &lt;div class="swiper-slide">
- &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide3" />
- 
- &lt;div class="caption">Fire Twitter bird&lt;/div>
- 
- &lt;/div>
- 
- &lt;/div>
- &lt;div class="swiper-pagination">&lt;/div>
- &lt;div class="swiper-button-next">&lt;/div>
- &lt;div class="swiper-button-prev">&lt;/div>
-&lt;/div></description></item></channel></rss>
+ &lt;button class="carousel-button next" onclick="nextSlide()">&amp;#10095;&lt;/button>
+&lt;/div>
+&lt;script>
+ let currentIndex = 0;
+
+ function showSlide(index) {
+ const slides = document.getElementById('carouselImages');
+ const totalSlides = slides.children.length;
+
+ if (index >= totalSlides) {
+ currentIndex = 0;
+ } else if (index &lt; 0) {
+ currentIndex = totalSlides - 1;
+ } else {
+ currentIndex = index;
+ }
+
+ const offset = -currentIndex * 100; // 各スライドの幅分移動
+ slides.style.transform = 'translateX(' + offset + '%)';
+ }
+
+ function nextSlide() {
+ showSlide(currentIndex + 1);
+ }
+
+ function prevSlide() {
+ showSlide(currentIndex - 1);
+ }
+&lt;/script></description></item></channel></rss>
