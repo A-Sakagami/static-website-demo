@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Example on Static Website Demo</title><link>http://localhost:1313/static-website-demo/tags/example/</link><description>Recent content in Example on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 31 Oct 2024 09:47:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/static-website-demo/tags/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Big Image Sample</title><link>http://localhost:1313/static-website-demo/carousel-sample/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/carousel-sample/</guid><description>&lt;h2 id="画像表示のサンプル">画像表示のサンプル&lt;/h2>
+&lt;p>以下の画像はフロントマターで定義された画像を表示しています。
+
+ &lt;div class="big-image">
+ &lt;img src="http://localhost:1313/static-website-demo/img/original/silde1.jpg" alt="Triangle">
+ 
+ &lt;p class="description">Triangle&lt;/p>
+ 
+ &lt;/div>
+
+ &lt;div class="big-image">
+ &lt;img src="http://localhost:1313/static-website-demo/img/original/silde2.jpg" alt="Sphere">
+ 
+ &lt;p class="description">Sphere&lt;/p>
+ 
+ &lt;/div>
+
+ &lt;div class="big-image">
+ &lt;img src="http://localhost:1313/static-website-demo/img/original/silde3.jpg" alt="Hexagon">
+ 
+ &lt;p class="description">Hexagon&lt;/p>
+ 
+ &lt;/div>
+
+&lt;/p></description></item></channel></rss>
