@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Static Website Demo</title>
-    <link>https://a-sakagami.github.io/static-website-demo/tags/</link>
+    <link>http://localhost:1313/static-website-demo/tags/</link>
     <description>Recent content in Tags on Static Website Demo</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate>
-    <atom:link href="https://a-sakagami.github.io/static-website-demo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/static-website-demo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test_automation</title>
-      <link>https://a-sakagami.github.io/static-website-demo/tags/test_automation/</link>
+      <link>http://localhost:1313/static-website-demo/tags/test_automation/</link>
       <pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate>
-      <guid>https://a-sakagami.github.io/static-website-demo/tags/test_automation/</guid>
+      <guid>http://localhost:1313/static-website-demo/tags/test_automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>https://a-sakagami.github.io/static-website-demo/tags/math/</link>
+      <link>http://localhost:1313/static-website-demo/tags/math/</link>
       <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
-      <guid>https://a-sakagami.github.io/static-website-demo/tags/math/</guid>
+      <guid>http://localhost:1313/static-website-demo/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bigimg</title>
+      <link>http://localhost:1313/static-website-demo/tags/bigimg/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/static-website-demo/tags/bigimg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example</title>
+      <link>http://localhost:1313/static-website-demo/tags/example/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/static-website-demo/tags/example/</guid>
       <description></description>
     </item>
   </channel>

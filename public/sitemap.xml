@@ -2,41 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://a-sakagami.github.io/static-website-demo/carousel-sample/</loc>
-    <lastmod>2024-11-11T10:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/</loc>
-    <lastmod>2024-11-11T10:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/posts/post3/</loc>
+    <loc>http://localhost:1313/static-website-demo/posts/post3/</loc>
     <lastmod>2024-11-06T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/posts/</loc>
+    <loc>http://localhost:1313/static-website-demo/posts/</loc>
     <lastmod>2024-11-06T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/tags/</loc>
+    <loc>http://localhost:1313/static-website-demo/</loc>
     <lastmod>2024-11-06T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/tags/test_automation/</loc>
+    <loc>http://localhost:1313/static-website-demo/tags/</loc>
     <lastmod>2024-11-06T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/contact/</loc>
+    <loc>http://localhost:1313/static-website-demo/tags/test_automation/</loc>
+    <lastmod>2024-11-06T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/static-website-demo/contact/</loc>
     <lastmod>2024-11-01T16:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/about/</loc>
+    <loc>http://localhost:1313/static-website-demo/about/</loc>
     <lastmod>2024-10-31T12:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/tags/math/</loc>
+    <loc>http://localhost:1313/static-website-demo/tags/math/</loc>
     <lastmod>2024-10-31T09:47:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</loc>
+    <loc>http://localhost:1313/static-website-demo/posts/my-second-post/</loc>
     <lastmod>2024-10-31T09:47:00+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/static-website-demo/posts/my-first-post/</loc>
     <lastmod>2024-10-30T13:06:42+09:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/categories/</loc>
+    <loc>http://localhost:1313/static-website-demo/carousel-sample/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://a-sakagami.github.io/static-website-demo/posts/test/</loc>
+    <loc>http://localhost:1313/static-website-demo/tags/bigimg/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/static-website-demo/tags/example/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/static-website-demo/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/static-website-demo/posts/test/</loc>
   </url>
 </urlset>

@@ -1,0 +1,8 @@
+{{ range .Page.Params.bigimg }}
+  <div class="big-image">
+    <img src="{{ .src }}" alt="{{ .desc | default "" }}">
+    {{ if .desc }}
+      <p class="description">{{ .desc }}</p>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,27 +1,25 @@
 +++
-date = '2024-11-11T10:00:00+09:00'
+title = "Big Image Sample"
+subtitle = "Using Multiple Images"
+date = '2024-10-31T09:47:00+09:00'
 draft = false
-title = 'Carousel Sample'
-[swiper]
-[[swiper.images]]
-src = "/img/original/slide1.jpg"
-alt = "Person"
-caption = "Person"
+tags = ["example", "bigimg"]
 
-[[swiper.images]]
-src = "/img/original/slide2.jpg"
-alt = "Slide2"
-caption = "AI chip"
+[[bigimg]]
+src = "/img/original/silde1.jpg"
+desc = "Triangle"
 
-[[swiper.images]]
-src = "/img/original/slide3.jpg"
-alt = "Slide3"
-caption = "Fire Twitter bird"
+[[bigimg]]
+src = "/img/original/silde2.jpg"
+desc = "Sphere"
+
+[[bigimg]]
+src = "/img/original/silde3.jpg"
+desc = "Hexagon"
 +++
+## 画像表示のサンプル
 
-## カルーセルのサンプル
+以下の画像はフロントマターで定義された画像を表示しています。
+{{< bigimg >}}
 
-カルーセルとは：画像などの複数の項目をスライドさせることで、メインで表示する項目を切り替えることができる仕組み
-引用：[DAC Solution Service:カルーセルとは](https://solutions.hakuhodody-one.co.jp/glossary/carousel-ad)
 
-{{ partial "/custom/swiper.html" . }}

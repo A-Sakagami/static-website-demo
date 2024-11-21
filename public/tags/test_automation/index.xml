@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test_automation on Static Website Demo</title>
-    <link>https://a-sakagami.github.io/static-website-demo/tags/test_automation/</link>
+    <link>http://localhost:1313/static-website-demo/tags/test_automation/</link>
     <description>Recent content in Test_automation on Static Website Demo</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate>
-    <atom:link href="https://a-sakagami.github.io/static-website-demo/tags/test_automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/static-website-demo/tags/test_automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20241106_秋晴れ</title>
-      <link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link>
+      <link>http://localhost:1313/static-website-demo/posts/post3/</link>
       <pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate>
-      <guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid>
+      <guid>http://localhost:1313/static-website-demo/posts/post3/</guid>
       <description>&lt;!DOCTYPE HTML&gt;&#xD;&#xA;&lt;html&gt;&#xD;&#xA; &lt;head&gt;&#xD;&#xA;  &lt;meta charset=&#34;UTF-8&#34; /&gt;&#xD;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; /&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA; &lt;/head&gt;&#xD;&#xA; &lt;body&gt;&#xD;&#xA;  &lt;h3&gt;HTMLセクション&lt;/h3&gt;&#xD;&#xA;  &lt;!-- style重複 --&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif&#34;&gt;&#xD;&#xA;   &lt;p&gt;今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif&#34;&gt;&#xD;&#xA;   &lt;p&gt;紅葉の見ごろもそろそろ終わりですね。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div style=&#34;background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif ;&#34;&gt;&#xD;&#xA;   &lt;p&gt;明日にも初雪が見られそうです。&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA; &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;</description>
     </item>
   </channel>
