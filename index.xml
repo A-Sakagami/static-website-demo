@@ -1,140 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static Website Demo</title><link>http://localhost:1313/static-website-demo/</link><description>Recent content on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/static-website-demo/index.xml" rel="self" type="application/rss+xml"/><item><title>20241106_秋晴れ</title><link>http://localhost:1313/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
-&lt;html>
- &lt;head>
- &lt;meta charset="UTF-8" />
- &lt;link rel="stylesheet" href="custom.css" />
-&lt;/head>
- &lt;/head>
- &lt;body>
- &lt;h3>HTMLセクション&lt;/h3>
- &lt;!-- style重複 -->
- &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
- &lt;p>今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p>
- &lt;/div>
- &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
- &lt;p>紅葉の見ごろもそろそろ終わりですね。&lt;/p>
- &lt;/div>
- &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif ;">
- &lt;p>明日にも初雪が見られそうです。&lt;/p>
- &lt;/div>
- &lt;/body>
-&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>http://localhost:1313/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/contact/</guid><description>&lt;form id= "contactForm" action="https://formspree.io/f/mpwzprjy" method="POST">
-&lt;label for="name" style="display: block; margin-bottom: 0.5em;">Name:&lt;/label>
- &lt;input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
-&lt;p>&lt;label for="email" style="display: block; margin-bottom: 0.5em;">Email:&lt;/label>
-&lt;input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">&lt;/p>
-&lt;p>&lt;label for="message" style="display: block; margin-bottom: 0.5em;">Message:&lt;/label>&lt;/p>
- &lt;textarea id="message" name="message" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; height: 150px;">&lt;/textarea>
-&lt;p>&lt;button type="button" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;" id="sendButton">Send&lt;/button>&lt;/p>
-&lt;/form>
-&lt;script>
- document.getElementById('sendButton').addEventListener('click', function () {
- const userConfirmed = confirm('この内容で送信してよろしいですか？');
- if (userConfirmed) {
- // ここでフォーム送信の実装を追加してください。
- document.getElementById('contactForm').submit();
- alert('送信されました！');
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static Website Demo</title><link>https://a-sakagami.github.io/static-website-demo/</link><description>Recent content on Static Website Demo</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sat, 23 Nov 2024 10:00:00 +0900</lastBuildDate><atom:link href="https://a-sakagami.github.io/static-website-demo/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Swiper</title><link>https://a-sakagami.github.io/static-website-demo/posts/test/</link><pubDate>Sat, 23 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/test/</guid><description>&lt;style>
+ .carousel {
+ width: 100%;
+ max-width: 800px;
+ margin: 20px auto;
+ overflow: hidden;
+ position: relative;
  }
- // キャンセルの場合は何も行わず、画面にとどまる
- });
-&lt;/script></description></item><item><title>このサイトについて</title><link>http://localhost:1313/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/about/</guid><description>&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
-&lt;h2 id="実装済み">実装済み&lt;/h2>
-&lt;ul>
-&lt;li>お問い合わせフォーム&lt;/li>
-&lt;/ul>
-&lt;h2 id="実装予定">実装予定&lt;/h2>
-&lt;ul>
-&lt;li>idが重複するdivコンテナ&lt;/li>
-&lt;li>動的ページ（javascript挿入）&lt;/li>
-&lt;li>class名が重複するdivコンテナ&lt;/li>
-&lt;li>divの入れ子構造&lt;/li>
-&lt;li>非標準の属性&lt;/li>
-&lt;li>ページロード後に非同期で追加される要素&lt;/li>
-&lt;li>テキストがないボタンやリンク&lt;/li>
-&lt;li>クリックとダブルクリックが同時に定義されているボタン&lt;/li>
-&lt;li>iframeの入れ子構造&lt;/li>
-&lt;/ul></description></item><item><title>Big Image Sample</title><link>http://localhost:1313/static-website-demo/carousel-sample/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/carousel-sample/</guid><description>&lt;h2 id="画像表示のサンプル">画像表示のサンプル&lt;/h2>
-&lt;p>以下の画像はフロントマターで定義された画像を表示しています。
 
- &lt;div class="big-image">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/silde1.jpg" alt="Triangle">
- 
- &lt;p class="description">Triangle&lt;/p>
- 
- &lt;/div>
+ .carousel-images {
+ display: flex;
+ transition: transform 0.5s ease-in-out;
+ }
 
- &lt;div class="big-image">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/silde2.jpg" alt="Sphere">
- 
- &lt;p class="description">Sphere&lt;/p>
- 
- &lt;/div>
+ .carousel-images img {
+ width: 100%;
+ max-width: 800px;
+ }
 
- &lt;div class="big-image">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/silde3.jpg" alt="Hexagon">
- 
- &lt;p class="description">Hexagon&lt;/p>
- 
- &lt;/div>
+ .carousel-button {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ background-color: rgba(0, 0, 0, 0.5);
+ color: white;
+ border: none;
+ padding: 10px;
+ cursor: pointer;
+ }
 
-&lt;/p></description></item><item><title>My Second Post</title><link>http://localhost:1313/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>http://localhost:1313/static-website-demo/posts/my-second-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
-&lt;p>二つ目の記事です。&lt;/p>
-&lt;p>これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。&lt;/p>
-&lt;p>KaTeXも使えるようです。数学徒も満足できるでしょう。
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$&lt;/p></description></item><item><title>My First Post</title><link>http://localhost:1313/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>http://localhost:1313/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
-&lt;p>私の初めての記事です。&lt;/p>
-&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item><item><title>Test Swiper</title><link>http://localhost:1313/static-website-demo/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/static-website-demo/posts/test/</guid><description>&lt;style>
-.carousel {
-width: 100%;
-max-width: 800px;
-margin: 20px auto;
-overflow: hidden;
-position: relative;
-}
+ .carousel-button.prev {
+ left: 10px;
+ }
 
-.carousel-images {
-display: flex;
-transition: transform 0.5s ease-in-out;
-}
-
-.carousel-images img {
-width: 100%;
-max-width: 800px;
-}
-
-.carousel-button {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-background-color: rgba(0, 0, 0, 0.5);
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-}
-
-.carousel-button.prev {
-left: 10px;
-}
-
-.carousel-button.next {
-right: 10px;
-}
+ .carousel-button.next {
+ right: 10px;
+ }
 &lt;/style>
 &lt;div class="carousel">
  &lt;button class="carousel-button prev" onclick="prevSlide()">&amp;#10094;&lt;/button>
  &lt;div class="carousel-images" id="carouselImages">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/slide1.jpg" alt="Slide 1">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/slide2.jpg" alt="Slide 2">
- &lt;img src="http://localhost:1313/static-website-demo/img/original/slide3.jpg" alt="Slide 3">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide1.jpg" alt="Slide 1">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide2.jpg" alt="Slide 2">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/slide3.jpg" alt="Slide 3">
  &lt;/div>
  &lt;button class="carousel-button next" onclick="nextSlide()">&amp;#10095;&lt;/button>
 &lt;/div>
 &lt;script>
  let currentIndex = 0;
-
  function showSlide(index) {
  const slides = document.getElementById('carouselImages');
  const totalSlides = slides.children.length;
@@ -158,4 +70,91 @@ right: 10px;
  function prevSlide() {
  showSlide(currentIndex - 1);
  }
-&lt;/script></description></item></channel></rss>
+&lt;/script></description></item><item><title>20241106_秋晴れ</title><link>https://a-sakagami.github.io/static-website-demo/posts/post3/</link><pubDate>Wed, 06 Nov 2024 10:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/post3/</guid><description>&lt;!DOCTYPE HTML>
+&lt;html>
+ &lt;head>
+ &lt;meta charset="UTF-8" />
+ &lt;link rel="stylesheet" href="custom.css" />
+&lt;/head>
+ &lt;/head>
+ &lt;body>
+ &lt;h3>HTMLセクション&lt;/h3>
+ &lt;!-- style重複 -->
+ &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
+ &lt;p>今日も秋晴れ、肌寒い季節となってまいりました。&lt;/p>
+ &lt;/div>
+ &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif">
+ &lt;p>紅葉の見ごろもそろそろ終わりですね。&lt;/p>
+ &lt;/div>
+ &lt;div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; font-style: serif ;">
+ &lt;p>明日にも初雪が見られそうです。&lt;/p>
+ &lt;/div>
+ &lt;/body>
+&lt;/html></description></item><item><title>お問い合わせフォーム</title><link>https://a-sakagami.github.io/static-website-demo/contact/</link><pubDate>Fri, 01 Nov 2024 16:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/contact/</guid><description>&lt;form id= "contactForm" action="https://formspree.io/f/mpwzprjy" method="POST">
+&lt;label for="name" style="display: block; margin-bottom: 0.5em;">Name:&lt;/label>
+ &lt;input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">
+&lt;p>&lt;label for="email" style="display: block; margin-bottom: 0.5em;">Email:&lt;/label>
+&lt;input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px;">&lt;/p>
+&lt;p>&lt;label for="message" style="display: block; margin-bottom: 0.5em;">Message:&lt;/label>&lt;/p>
+ &lt;textarea id="message" name="message" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; height: 150px;">&lt;/textarea>
+&lt;p>&lt;button type="button" style="width: 100%; padding: 0.7em; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;" id="sendButton">Send&lt;/button>&lt;/p>
+&lt;/form>
+&lt;script>
+ document.getElementById('sendButton').addEventListener('click', function () {
+ const userConfirmed = confirm('この内容で送信してよろしいですか？');
+ if (userConfirmed) {
+ // ここでフォーム送信の実装を追加してください。
+ document.getElementById('contactForm').submit();
+ alert('送信されました！');
+ }
+ // キャンセルの場合は何も行わず、画面にとどまる
+ });
+&lt;/script></description></item><item><title>このサイトについて</title><link>https://a-sakagami.github.io/static-website-demo/about/</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/about/</guid><description>&lt;p>ようこそ。このサイトは、テスト自動化の演習のために、様々なユースケースデザインを実装する予定です。&lt;/p>
+&lt;h2 id="実装済み">実装済み&lt;/h2>
+&lt;ul>
+&lt;li>お問い合わせフォーム&lt;/li>
+&lt;/ul>
+&lt;h2 id="実装予定">実装予定&lt;/h2>
+&lt;ul>
+&lt;li>idが重複するdivコンテナ&lt;/li>
+&lt;li>動的ページ（javascript挿入）&lt;/li>
+&lt;li>class名が重複するdivコンテナ&lt;/li>
+&lt;li>divの入れ子構造&lt;/li>
+&lt;li>非標準の属性&lt;/li>
+&lt;li>ページロード後に非同期で追加される要素&lt;/li>
+&lt;li>テキストがないボタンやリンク&lt;/li>
+&lt;li>クリックとダブルクリックが同時に定義されているボタン&lt;/li>
+&lt;li>iframeの入れ子構造&lt;/li>
+&lt;/ul></description></item><item><title>Big Image Sample</title><link>https://a-sakagami.github.io/static-website-demo/carousel-sample/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/carousel-sample/</guid><description>&lt;h2 id="画像表示のサンプル">画像表示のサンプル&lt;/h2>
+&lt;p>以下の画像はフロントマターで定義された画像を表示しています。
+
+ &lt;div class="big-image">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/silde1.jpg" alt="Triangle">
+ 
+ &lt;p class="description">Triangle&lt;/p>
+ 
+ &lt;/div>
+
+ &lt;div class="big-image">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/silde2.jpg" alt="Sphere">
+ 
+ &lt;p class="description">Sphere&lt;/p>
+ 
+ &lt;/div>
+
+ &lt;div class="big-image">
+ &lt;img src="https://a-sakagami.github.io/static-website-demo/img/silde3.jpg" alt="Hexagon">
+ 
+ &lt;p class="description">Hexagon&lt;/p>
+ 
+ &lt;/div>
+
+&lt;/p></description></item><item><title>My Second Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</link><pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-second-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>二つ目の記事です。&lt;/p>
+&lt;p>これから環境構築についてまとめていきます。READ MEにでも残せたら御の字でしょうか。&lt;/p>
+&lt;p>KaTeXも使えるようです。数学徒も満足できるでしょう。
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$&lt;/p></description></item><item><title>My First Post</title><link>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</link><pubDate>Wed, 30 Oct 2024 13:06:42 +0900</pubDate><guid>https://a-sakagami.github.io/static-website-demo/posts/my-first-post/</guid><description>&lt;h2 id="テスト投稿">テスト投稿&lt;/h2>
+&lt;p>私の初めての記事です。&lt;/p>
+&lt;p>Github Actionsがうまくいかないので困っています。&lt;/p></description></item></channel></rss>
