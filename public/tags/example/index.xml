@@ -6,14 +6,14 @@
     <description>Recent content in Example on Static Website Demo</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 09:47:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/static-website-demo/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Big Image Sample</title>
       <link>http://localhost:1313/static-website-demo/carousel-sample/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
       <guid>http://localhost:1313/static-website-demo/carousel-sample/</guid>
-      <description>&lt;h2 id=&#34;画像表示のサンプル&#34;&gt;画像表示のサンプル&lt;/h2&gt;&#xA;&lt;p&gt;以下の画像はフロントマターで定義された画像を表示しています。&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/original/silde1.jpg&#34; alt=&#34;Triangle&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Triangle&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/original/silde2.jpg&#34; alt=&#34;Sphere&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Sphere&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/original/silde3.jpg&#34; alt=&#34;Hexagon&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Hexagon&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;画像表示のサンプル&#34;&gt;画像表示のサンプル&lt;/h2&gt;&#xA;&lt;p&gt;以下の画像はフロントマターで定義された画像を表示しています。&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/silde1.jpg&#34; alt=&#34;Triangle&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Triangle&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/silde2.jpg&#34; alt=&#34;Sphere&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Sphere&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;div class=&#34;big-image&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/static-website-demo/img/silde3.jpg&#34; alt=&#34;Hexagon&#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;p class=&#34;description&#34;&gt;Hexagon&lt;/p&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

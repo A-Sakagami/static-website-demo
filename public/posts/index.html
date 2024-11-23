@@ -220,6 +220,115 @@
         <div class="posts-list">
           
             <article class="post-preview">
+    <a href="http://localhost:1313/static-website-demo/posts/test/">
+        <h2 class="post-title">Test Swiper</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 23, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;A-Sakagami
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <style>
+  .carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  }
+
+  .carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-images img {
+  width: 100%;
+  max-width: 800px;
+  }
+
+  .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  }
+
+  .carousel-button.prev {
+  left: 10px;
+  }
+
+  .carousel-button.next {
+  right: 10px;
+  }
+</style>
+<div class="carousel">
+  <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+  <div class="carousel-images" id="carouselImages">
+    <img src="/img/slide1.jpg" alt="Slide 1">
+    <img src="/img/slide2.jpg" alt="Slide 2">
+    <img src="/img/slide3.jpg" alt="Slide 3">
+  </div>
+  <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+</div>
+<script>
+  let currentIndex = 0;
+  function showSlide(index) {
+    const slides = document.getElementById('carouselImages');
+    const totalSlides = slides.children.length;
+
+    if (index >= totalSlides) {
+      currentIndex = 0;
+    } else if (index < 0) {
+      currentIndex = totalSlides - 1;
+    } else {
+      currentIndex = index;
+    }
+
+    const offset = -currentIndex * 100; // 各スライドの幅分移動
+    slides.style.transform = 'translateX(' + offset + '%)';
+  }
+
+  function nextSlide() {
+    showSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(currentIndex - 1);
+  }
+</script>
+
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="http://localhost:1313/static-website-demo/posts/post3/">
         <h2 class="post-title">20241106_秋晴れ</h2>
         
@@ -364,116 +473,6 @@ $$</p>
         <h2 id="テスト投稿">テスト投稿</h2>
 <p>私の初めての記事です。</p>
 <p>Github Actionsがうまくいかないので困っています。</p>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="http://localhost:1313/static-website-demo/posts/test/">
-        <h2 class="post-title">Test Swiper</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;A-Sakagami
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <style>
-.carousel {
-width: 100%;
-max-width: 800px;
-margin: 20px auto;
-overflow: hidden;
-position: relative;
-}
-
-.carousel-images {
-display: flex;
-transition: transform 0.5s ease-in-out;
-}
-
-.carousel-images img {
-width: 100%;
-max-width: 800px;
-}
-
-.carousel-button {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-background-color: rgba(0, 0, 0, 0.5);
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-}
-
-.carousel-button.prev {
-left: 10px;
-}
-
-.carousel-button.next {
-right: 10px;
-}
-</style>
-<div class="carousel">
-  <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-  <div class="carousel-images" id="carouselImages">
-    <img src="/img/original/slide1.jpg" alt="Slide 1">
-    <img src="/img/original/slide2.jpg" alt="Slide 2">
-    <img src="/img/original/slide3.jpg" alt="Slide 3">
-  </div>
-  <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
-</div>
-<script>
-  let currentIndex = 0;
-
-  function showSlide(index) {
-    const slides = document.getElementById('carouselImages');
-    const totalSlides = slides.children.length;
-
-    if (index >= totalSlides) {
-      currentIndex = 0;
-    } else if (index < 0) {
-      currentIndex = totalSlides - 1;
-    } else {
-      currentIndex = index;
-    }
-
-    const offset = -currentIndex * 100; // 各スライドの幅分移動
-    slides.style.transform = 'translateX(' + offset + '%)';
-  }
-
-  function nextSlide() {
-    showSlide(currentIndex + 1);
-  }
-
-  function prevSlide() {
-    showSlide(currentIndex - 1);
-  }
-</script>
 
         
     </div>

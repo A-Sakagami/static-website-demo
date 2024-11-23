@@ -16,24 +16,24 @@
       <description></description>
     </item>
     <item>
-      <title>Math</title>
-      <link>http://localhost:1313/static-website-demo/tags/math/</link>
-      <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
-      <guid>http://localhost:1313/static-website-demo/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bigimg</title>
       <link>http://localhost:1313/static-website-demo/tags/bigimg/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
       <guid>http://localhost:1313/static-website-demo/tags/bigimg/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
       <link>http://localhost:1313/static-website-demo/tags/example/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
       <guid>http://localhost:1313/static-website-demo/tags/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/static-website-demo/tags/math/</link>
+      <pubDate>Thu, 31 Oct 2024 09:47:00 +0900</pubDate>
+      <guid>http://localhost:1313/static-website-demo/tags/math/</guid>
       <description></description>
     </item>
   </channel>

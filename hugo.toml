@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/static-website-demo/"
+baseURL = "https://a-sakagami.github.io/static-website-demo/"
 languageCode = 'ja-jp'
 title = 'Static Website Demo'
 theme = "beautifulhugo"

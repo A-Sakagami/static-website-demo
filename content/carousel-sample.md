@@ -6,15 +6,15 @@ draft = false
 tags = ["example", "bigimg"]
 
 [[bigimg]]
-src = "/img/original/silde1.jpg"
+src = "/img/silde1.jpg"
 desc = "Triangle"
 
 [[bigimg]]
-src = "/img/original/silde2.jpg"
+src = "/img/silde2.jpg"
 desc = "Sphere"
 
 [[bigimg]]
-src = "/img/original/silde3.jpg"
+src = "/img/silde3.jpg"
 desc = "Hexagon"
 +++
 ## 画像表示のサンプル

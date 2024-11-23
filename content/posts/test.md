@@ -1,59 +1,60 @@
 +++
+date = '2024-11-23T10:00:00+09:00'
+draft = false
 title = "Test Swiper"
 +++
 
 <style>
-.carousel {
-width: 100%;
-max-width: 800px;
-margin: 20px auto;
-overflow: hidden;
-position: relative;
-}
+  .carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  }
 
-.carousel-images {
-display: flex;
-transition: transform 0.5s ease-in-out;
-}
+  .carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  }
 
-.carousel-images img {
-width: 100%;
-max-width: 800px;
-}
+  .carousel-images img {
+  width: 100%;
+  max-width: 800px;
+  }
 
-.carousel-button {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-background-color: rgba(0, 0, 0, 0.5);
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-}
+  .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  }
 
-.carousel-button.prev {
-left: 10px;
-}
+  .carousel-button.prev {
+  left: 10px;
+  }
 
-.carousel-button.next {
-right: 10px;
-}
+  .carousel-button.next {
+  right: 10px;
+  }
 </style>
 
 <div class="carousel">
   <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
   <div class="carousel-images" id="carouselImages">
-    <img src="/img/original/slide1.jpg" alt="Slide 1">
-    <img src="/img/original/slide2.jpg" alt="Slide 2">
-    <img src="/img/original/slide3.jpg" alt="Slide 3">
+    <img src="/img/slide1.jpg" alt="Slide 1">
+    <img src="/img/slide2.jpg" alt="Slide 2">
+    <img src="/img/slide3.jpg" alt="Slide 3">
   </div>
   <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
 </div>
 
 <script>
   let currentIndex = 0;
-
   function showSlide(index) {
     const slides = document.getElementById('carouselImages');
     const totalSlides = slides.children.length;
